@@ -1,0 +1,6 @@
+.one:hover::after {
+    content:"Text when hovered";
+    position:absolute;
+    left:0;
+    }
+
