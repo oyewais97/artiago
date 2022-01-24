@@ -1,7 +1,10 @@
 .bk-jumbo{
     background-image: url('/public/images/project2.jpg');
     object-fit: cover;
-     height: 100Vh;
+    background-size: cover;
+    
+    
+     background-repeat: no-repeat;
 }
 .navbar-desktop {
     background-color: white;

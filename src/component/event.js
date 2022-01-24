@@ -62,7 +62,7 @@ const Events = ({ hideTransparency }) => {
   return (
   <>    
  <NavBar />
-<div className="jumbotron jumbotron-fluid bk-jumbo " >
+<div className="jumbotron jumbotron-fluid bk-jumbo col-12" >
   <div className="container">
       
     <h1 className="display-4 col-6 mx-auto font-weight-normal " style={{ marginTop:"10rem", color:"black", }}>Upcoming events.</h1>
@@ -88,6 +88,72 @@ const Events = ({ hideTransparency }) => {
 <div style={{height : "20vh", backgroundColor: "white"}} >
 
 </div>
+<footer class="page-footer font-small blue pt-4">
+
+  
+<div class="container-fluid text-center text-md-left">
+
+
+  <div class="row">
+
+    
+    <div class="col-md-6 mt-md-0 mt-3">
+
+
+      <h5 class="text-uppercase">Contact Us</h5>
+      <ul>
+        <li>Tel no: +92 331 2545988</li>
+        <li>Email Address: Info@Artiago.org</li>
+      </ul>
+      <ul>
+        <li>Office: Room no 02, Office 211.<br/>
+RSM Square, Plot no E1.<br/>Shaheed-e-Millat Road. </li>
+        <li>Karachi, 75350, Pakistan.</li>
+      </ul>
+    </div>
+    
+
+    <hr class="clearfix w-100 d-md-none pb-3" />
+    
+    <div class="col-md-3 mb-md-0 mb-3">
+
+      
+
+      <ul class="list-unstyled">
+        <li>
+          <a href="#!">Shop</a>
+        </li>
+       
+      </ul>
+
+    </div>
+    
+    <div class="col-md-3 mb-md-0 mb-3">
+
+      
+
+      <ul class="list-unstyled">
+        <li>
+          <a href="#!">Journal</a>
+        </li>
+        <li>
+          <a href="#!">Contact</a>
+        </li>
+              </ul>
+
+    </div>
+    
+
+  </div>
+  
+</div>
+
+
+
+
+
+
+</footer>
 </>
 
     

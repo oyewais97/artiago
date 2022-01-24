@@ -83,10 +83,10 @@ const NavBar = ({ hideTransparency }) => {
           ? "navbar-desktop navbar-desktop-fixed"
           : "navbar-desktop"
       }>
-      <a class="navbar-brand" href="#">Artiago Pakistan</a>
+     <Link to="/"> <a className="navbar-brand" href="#">Artiago Pakistan</a></Link>
   <ul className="navbarLi">
           
-            <li id="first" onMouseOver={onHover}  >Events
+            <Link to="event"><li id="first" onMouseOver={onHover}  >Events
             
             <li style={{marginTop:"-3rem"}}>
             {hover ? 
@@ -98,7 +98,7 @@ const NavBar = ({ hideTransparency }) => {
             </li>
            
          
-            </li>
+            </li></Link>
            
             
           
@@ -106,12 +106,15 @@ const NavBar = ({ hideTransparency }) => {
             About
 
           </li>
-          <li id="second">
-            Company
+          <li >
+         <Link to="interior"> 
+         Interior Design
 
+          </Link>
           </li>
+
           <li id="second">
-            Future
+          Company 
 
           </li>
           <li id="second">

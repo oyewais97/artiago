@@ -2,6 +2,9 @@
     background-image: url("https://images.squarespace-cdn.com/content/v1/61b0624b5c8dad073b5ff3ba/35be72c4-dbe6-410f-9738-f3d7667ec1ad/image+for+website.jpg?format=2500w");
     background-color: aqua;
     height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    object-fit: cover;
 }
 .navBar{
     background: transparent;
@@ -54,6 +57,14 @@
     
 
 
+}
+.heading-jumbo-welcome{
+    font-family:  sans-serif ;
+    color: rgb(73, 72, 72);
+    line-break: strict;
+    margin-top: 10rem;
+    text-align: center;
+    
 }
 .blog-crd-main:hover{
     border-color: white;
