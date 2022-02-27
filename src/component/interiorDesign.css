@@ -20,3 +20,29 @@
     font-family:  sans-serif ;
     color: rgb(229, 226, 226);
 }
+.contact-heading{
+  font-weight:300;
+  color: white;
+  font-size: 2rem;
+  font-family: orpheus-pro ;
+
+}
+.footer-link{
+    list-style-type: none;
+    color: white ;
+    font-size: medium;
+    font-weight: 600;
+    word-spacing: 5px;
+}
+.footer-icon{
+    list-style-type: none;   
+    word-spacing: 5px;
+    padding-top:25px ;
+}
+.url-link{
+    color: gray;
+}
+.footer-link2{
+    padding-top: 50px;
+    text-decoration: underline;
+}

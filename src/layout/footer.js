@@ -1,24 +1,36 @@
 import React from "react"
-
+import { FaBeer,FaInstagram,FaFacebookF,FaTwitter } from 'react-icons/fa';
 
 const Footer=()=> {
     return(
         <>
-        <footer class="page-footer font-small blue pt-4">
+        <div style={{height : "20vh", backgroundColor: "#5A5A5A"}} >
+
+</div>
+<footer className="page-footer font-small blue pt-4">
 
   
-<div class="container-fluid text-center text-md-left">
+<div className="container-fluid text-center text-md-left">
 
 
-  <div class="row">
+  <div className="row">
 
     
-    <div class="col-md-6 mt-md-0 mt-3">
+    <div className="col-md-6 mt-md-0 mt-3">
 
 
-      <h5 class="text-uppercase">Footer Content</h5>
-      <p>Here you can use rows and columns to organize your footer content.</p>
-
+      <h5 className="contact-heading"  >Contact Us.</h5>
+      <ul className="ul-footer ">
+        <li className="footer-link ">Tel no: +92 331 2545988</li>
+        <li className="footer-link">Email Address: Info@Artiago.org</li>
+      </ul>
+      <ul>
+        <li className="footer-link ">Office: Room no 02, Office 211.<br/>
+RSM Square, Plot no E1.<br/>Shaheed-e-Millat Road. </li>
+        <li className="footer-link ">Karachi, 75350, Pakistan.</li>
+        <li className="footer-link ">Made with <a href="#" style={ { color: "grey" , textDecoration:"underline"  } }>squarespace</a></li>
+        <li className="footer-icon"><FaInstagram color="white" fontSize="1.5em"/><span style={{ paddingLeft: "15px" }} ><FaFacebookF color="white" fontSize="1.5em" /></span><span style={{ paddingLeft: "20px" }}><FaTwitter color="white" fontSize="1.5em"  /></span></li>
+      </ul>
     </div>
     
 
@@ -26,43 +38,29 @@ const Footer=()=> {
     
     <div class="col-md-3 mb-md-0 mb-3">
 
-      <h5 class="text-uppercase">Links</h5>
+      
 
       <ul class="list-unstyled">
-        <li>
-          <a href="#!">Link 1</a>
+        <li className="footer-link2">
+          <a href="#!" className="url-link">Shop</a>
         </li>
-        <li>
-          <a href="#!">Link 2</a>
-        </li>
-        <li>
-          <a href="#!">Link 3</a>
-        </li>
-        <li>
-          <a href="#!">Link 4</a>
-        </li>
+       
       </ul>
 
     </div>
     
     <div class="col-md-3 mb-md-0 mb-3">
 
-      <h5 class="text-uppercase">Links</h5>
+      
 
       <ul class="list-unstyled">
-        <li>
-          <a href="#!">Link 1</a>
+        <li className="footer-link2">
+          <a href="#!" className="url-link">Journal</a>
         </li>
-        <li>
-          <a href="#!">Link 2</a>
+        <li className="footer-link2">
+          <a href="#!" className="url-link">Contact</a>
         </li>
-        <li>
-          <a href="#!">Link 3</a>
-        </li>
-        <li>
-          <a href="#!">Link 4</a>
-        </li>
-      </ul>
+              </ul>
 
     </div>
     
@@ -73,9 +71,7 @@ const Footer=()=> {
 
 
 
-<div class="footer-copyright text-center py-3">© 2020 Copyright:
-  <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
-</div>
+
 
 
 </footer>

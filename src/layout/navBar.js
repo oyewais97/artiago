@@ -86,7 +86,7 @@ const NavBar = ({ hideTransparency }) => {
      <Link to="/"> <a className="navbar-brand" href="#">Artiago Pakistan</a></Link>
   <ul className="navbarLi">
           
-            <Link to="event"><li id="first" onMouseOver={onHover}  >Events
+            <Link to="/event"><li id="first" onMouseOver={onHover}  >Events
             
             <li style={{marginTop:"-3rem"}}>
             {hover ? 
@@ -107,7 +107,7 @@ const NavBar = ({ hideTransparency }) => {
 
           </li>
           <li >
-         <Link to="interior"> 
+         <Link to="/interior"> 
          Interior Design
 
           </Link>

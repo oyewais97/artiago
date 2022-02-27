@@ -1,5 +1,8 @@
 import {react,useState} from "react";
 import NavBar from "../layout/navBar";
+import { faHome,  } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaBeer,FaInstagram,FaFacebookF,FaTwitter } from 'react-icons/fa';
 import './interiorDesign.css';
  
 const Scard = [ {  imgUrl: process.env.PUBLIC_URL + "/images/project1.jpg",tittle: 'Project 1',
@@ -97,33 +100,32 @@ function InteriorDesign() {
 
 
 </div>
-
-
-
-<div style={{height : "20vh", backgroundColor: "white"}} >
+<div style={{height : "20vh", backgroundColor: "#5A5A5A"}} >
 
 </div>
-<footer class="page-footer font-small blue pt-4">
+<footer className="page-footer font-small blue pt-4">
 
   
-<div class="container-fluid text-center text-md-left">
+<div className="container-fluid text-center text-md-left">
 
 
-  <div class="row">
+  <div className="row">
 
     
-    <div class="col-md-6 mt-md-0 mt-3">
+    <div className="col-md-6 mt-md-0 mt-3">
 
 
-      <h5 class="text-uppercase">Contact Us</h5>
-      <ul>
-        <li>Tel no: +92 331 2545988</li>
-        <li>Email Address: Info@Artiago.org</li>
+      <h5 className="contact-heading"  >Contact Us.</h5>
+      <ul className="ul-footer ">
+        <li className="footer-link ">Tel no: +92 331 2545988</li>
+        <li className="footer-link">Email Address: Info@Artiago.org</li>
       </ul>
       <ul>
-        <li>Office: Room no 02, Office 211.<br/>
+        <li className="footer-link ">Office: Room no 02, Office 211.<br/>
 RSM Square, Plot no E1.<br/>Shaheed-e-Millat Road. </li>
-        <li>Karachi, 75350, Pakistan.</li>
+        <li className="footer-link ">Karachi, 75350, Pakistan.</li>
+        <li className="footer-link ">Made with <a href="#" style={ { color: "grey" , textDecoration:"underline"  } }>squarespace</a></li>
+        <li className="footer-icon"><FaInstagram color="white" fontSize="1.5em"/><span style={{ paddingLeft: "15px" }} ><FaFacebookF color="white" fontSize="1.5em" /></span><span style={{ paddingLeft: "20px" }}><FaTwitter color="white" fontSize="1.5em"  /></span></li>
       </ul>
     </div>
     
@@ -135,8 +137,8 @@ RSM Square, Plot no E1.<br/>Shaheed-e-Millat Road. </li>
       
 
       <ul class="list-unstyled">
-        <li>
-          <a href="#!">Shop</a>
+        <li className="footer-link2">
+          <a href="#!" className="url-link">Shop</a>
         </li>
        
       </ul>
@@ -148,11 +150,11 @@ RSM Square, Plot no E1.<br/>Shaheed-e-Millat Road. </li>
       
 
       <ul class="list-unstyled">
-        <li>
-          <a href="#!">Journal</a>
+        <li className="footer-link2">
+          <a href="#!" className="url-link">Journal</a>
         </li>
-        <li>
-          <a href="#!">Contact</a>
+        <li className="footer-link2">
+          <a href="#!" className="url-link">Contact</a>
         </li>
               </ul>
 

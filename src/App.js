@@ -13,15 +13,15 @@ function App() {
     
      <Router>
         <Routes>
-          <Route exact path="/"  element={<Home/>} >
+          <Route  path="/"  element={<Home/>} />
            
-          </Route>
-          <Route exact path="/event"  element={<Events/>} >
+         
+          <Route  path="/event" exact element={<Events/>} />
            
-          </Route>
-          <Route exact path="interior"  element={<InteriorDesign/>} >
+          
+          <Route  path="/interior" exact  element={<InteriorDesign/>} />
            
-           </Route>
+           
         </Routes>
       </Router>
      
